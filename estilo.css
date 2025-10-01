@@ -1,0 +1,28 @@
+/* Miguel Arias Guerrero UO288285*/
+ /* Estilos generales del proyecto MotoGP-Desktop*/
+
+
+
+
+
+ /* Especificidad de 001*/
+ body {font-family:"Arial","Times New Roman", sans-serif;
+    background-color:#0D1B2A ; color: #FFFFFF} 
+
+/* Especificidad: 001 */
+header {
+  background-color:#0D1B2A ; /* color de fondo del header, hay advertencia por el color pero se hereda de body */
+}
+
+/* Especificidad: 001 */
+h1 {
+  color:#FFD700; /* color del h1, hay advertencia por el color de fondo pero se hereda de body */
+}
+
+/* Especificidad: 001 */
+nav {
+  color:#6BB5FF; /* color del nav, hay advertencia por el color de fondo pero se hereda de body */
+}
+
+
+
