@@ -21,7 +21,7 @@ h1 {
 
 /* Especificidad: 001 */
 nav {
-  color:#52A8FF; /* color del nav, hay advertencia por el color de fondo pero se hereda de body */
+  color:#6BB5FF; /* color del nav, hay advertencia por el color de fondo pero se hereda de body */
 }
 
 
