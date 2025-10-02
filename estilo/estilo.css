@@ -2,8 +2,21 @@
  /* Estilos generales del proyecto MotoGP-Desktop*/
 
 
+/* Especificidad de 010*/
+.active{
+  color:#FFD700; /*color de elementos con este atributo, advertencia por color fondo*/
+}
 
+/* Especificidad de 002*/
+nav> a{
+  text-decoration-line: none; text-decoration-color: #6BB5FF;
+  color: #6BB5FF;
+}
 
+/* Especificidad de 001*/
+a{
+  color: #6BB5FF;
+}
 
  /* Especificidad de 001*/
  body {font-family:"Arial","Times New Roman", sans-serif;
@@ -23,6 +36,13 @@ h1 {
 nav {
   color:#6BB5FF; /* color del nav, hay advertencia por el color de fondo pero se hereda de body */
 }
+
+/* Especificidad: 001 */
+p:first-of-type{
+  font-size: 0.8em;
+}
+
+
 
 
 
