@@ -33,11 +33,11 @@ h1 {
   font-size: 2.7em;
   color:#FFD700; /* color del h1, hay advertencia por el color de fondo pero se hereda de body */
 }
-
+/* Especificidad: 001 */
 h2{
   font-size: 1.8em;
 }
-
+/* Especificidad: 001 */
 h3{
   font-size: 1.5em;
 }
@@ -71,11 +71,11 @@ th,td{
 caption{
   font-size: 1.5em;
 }
-
+/* Especificidad: 001 */
 dt{
   font-size: 1.3em;
 }
-
+/* Especificidad: 001 */
 dd{
   font-size: 0.8em;
 }
