@@ -1,0 +1,85 @@
+/* Miguel Arias Guerrero UO288285*/
+ /* Estilos generales del proyecto MotoGP-Desktop*/
+
+
+/* Especificidad de 010*/
+.active{
+  color:#FFD700; /*color de elementos con este atributo, advertencia por color fondo*/
+}
+
+
+/* Especificidad de 001*/
+a{
+  color: #6BB5FF; /*color de elemento, advertencia por falta de color de fondo pero se hereda de body*/
+}
+/* Especificidad de 002*/
+nav> a{
+  text-decoration-line: none; 
+}
+
+
+
+ /* Especificidad de 001*/
+ body {font-family:"Arial","Times New Roman", sans-serif;
+    background-color:#030303 ; color: #FFFFFF} 
+
+/* Especificidad: 001 */
+header {
+  background-color:#1a1a1a ; /* color de fondo del header, hay advertencia por el color pero se hereda de body */
+}
+
+/* Especificidad: 001 */
+h1 {
+  font-size: 2.7em;
+  color:#FFD700; /* color del h1, hay advertencia por el color de fondo pero se hereda de body */
+}
+
+h2{
+  font-size: 1.8em;
+}
+
+h3{
+  font-size: 1.5em;
+}
+
+/* Especificidad: 001 */
+nav {
+  color:#6BB5FF; /* color del nav, hay advertencia por el color de fondo pero se hereda de body */
+}
+
+/* Especificidad: 002 */
+header+p{
+  font-size: 0.8em;
+}
+/* Especificidad: 001 */
+Video,audio {
+ width:100%;
+ height:auto;
+}
+/* Especificidad: 001 */
+table{
+  border-color:#FFFFFF;
+  border-style: double;
+}
+/* Especificidad: 001 */
+th,td{
+  border-color:#FFFFFF;
+  border-style: double;
+  text-align: center;
+}
+/* Especificidad: 001 */
+caption{
+  font-size: 1.5em;
+}
+
+dt{
+  font-size: 1.3em;
+}
+
+dd{
+  font-size: 0.8em;
+}
+
+
+
+
