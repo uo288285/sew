@@ -1,0 +1,32 @@
+<!ELEMENT circuito (nombre,longitud,anchura,fecha,
+hora,vueltas,pais,patrocinador,bibliografia+,fotos+, videos+,origen,
+puntosAnonimos+,vencedor,clasificados+)>
+<!ELEMENT origen (coordenadas)>
+<!ELEMENT puntosAnonimo (tramo,coordenadas,sector)>
+<!ELEMENT coordenadas (altura,latitud,altitud)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT longitud (#PCDATA)>
+<!ELEMENT anchura (#PCDATA)>
+<!ELEMENT fecha (#PCDATA)>
+<!ELEMENT hora (#PCDATA)>
+<!ELEMENT vueltas (#PCDATA)>
+<!ELEMENT pais (#PCDATA)>
+<!ELEMENT patrocinador (#PCDATA)>
+<!ELEMENT bibliografia (#PCDATA)>
+<!ELEMENT fotos (#PCDATA)>
+<!ELEMENT videos (#PCDATA)>
+<!ELEMENT puntosAnonimos (#PCDATA)>
+<!ELEMENT vencedor (#PCDATA)>
+<!ELEMENT clasificados (#PCDATA)>
+<!ELEMENT altura (#PCDATA)>
+<!ELEMENT latitud (#PCDATA)>
+<!ELEMENT altitud (#PCDATA)>
+<!ELEMENT tramo (#PCDATA)>
+<!ELEMENT sector (#PCDATA)>
+
+<!ATTLIST longitud kilometros CDATA #REQUIRED>
+<!ATTLIST anchura  metros CDATA #REQUIRED>
+<!ATTLIST altura  metros CDATA #REQUIRED>
+<!ATTLIST latitud  grados CDATA #REQUIRED>
+<!ATTLIST altitud  grados CDATA #REQUIRED>
+<!ATTLIST clasificados  puesto CDATA #REQUIRED>

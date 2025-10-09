@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE circuito SYSTEM "circuito.dtd">
+<circuito>
+<nombre>Petronas Sepang International Circuit</nombre>
+<longitud kilometros="km longitud"> 5,543</longitud>
+    <anchura metros= "metros anchura"> 25 </anchura>
+    <fecha> 26 octubre de 2025</fecha>
+    <hora>8:00 </hora>
+    <vueltas> 21</vueltas>
+    <pais>Malasia</pais>
+    <patrocinador>Petronas</patrocinador>
+    <bibliografia> https://www.autobild.es/reportajes/asi-es-circuito-sepang-270281</bibliografia>
+    <bibliografia>https://www.estadiodeportivo.com/motor/motogp/circuito-internacional-sepang-longitud-curvas-vuelta-record-del-trazado-del-malasia-motogp-20250315-486503.html</bibliografia>
+    <bibliografia>https://www.sepangcircuit.com/</bibliografia>
+    <fotos></fotos>
+    <videos></videos>
+    <origen>
+        <coordenadas>
+        <altura metros="metros"> 35,79</altura>
+        <latitud grados="grados"> 2º 45' 39"</latitud>
+        <altitud grados="grados "> 101º 44' 20"</altitud>
+        </coordenadas>
+    </origen>
+    <puntosAnonimos>
+
+    </puntosAnonimos>
+    <vencedor> </vencedor>
+    <clasificados puesto="">
+
+    </clasificados>
+</circuito>
