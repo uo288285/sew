@@ -1,0 +1,172 @@
+<?xml version='1.0' encoding='utf-8'?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <Placemark>
+      <name>Origen</name>
+      <description>Punto de inicio</description>
+      <Point>
+        <coordinates>101.73833,2.76056,35.76</coordinates>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Punto 1</name>
+      <description>Punto del circuito</description>
+      <Point>
+        <coordinates>101.7325,2.76056,37.46</coordinates>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Punto 2</name>
+      <description>Punto del circuito</description>
+      <Point>
+        <coordinates>101.73333,2.76083,35.05</coordinates>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Punto 3</name>
+      <description>Punto del circuito</description>
+      <Point>
+        <coordinates>101.733056,2.763056,23.2</coordinates>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Punto 4</name>
+      <description>Punto del circuito</description>
+      <Point>
+        <coordinates>101.7375,2.765,36.98</coordinates>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Punto 5</name>
+      <description>Punto del circuito</description>
+      <Point>
+        <coordinates>101.738611,2.762222,36.65</coordinates>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Punto 6</name>
+      <description>Punto del circuito</description>
+      <Point>
+        <coordinates>101.740555,2.762778,38.66</coordinates>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Punto 7</name>
+      <description>Punto del circuito</description>
+      <Point>
+        <coordinates>101.742777,2.760556,38.77</coordinates>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Punto 8</name>
+      <description>Punto del circuito</description>
+      <Point>
+        <coordinates>101.7425,2.759444,38.11</coordinates>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Punto 9</name>
+      <description>Punto del circuito</description>
+      <Point>
+        <coordinates>101.738333,2.759167,34.17</coordinates>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Punto 10</name>
+      <description>Punto del circuito</description>
+      <Point>
+        <coordinates>101.739166,2.758333,41.1</coordinates>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Punto 11</name>
+      <description>Punto del circuito</description>
+      <Point>
+        <coordinates>101.738611,2.756389,44.07</coordinates>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Punto 12</name>
+      <description>Punto del circuito</description>
+      <Point>
+        <coordinates>101.736111,2.758056,36.23</coordinates>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Punto 13</name>
+      <description>Punto del circuito</description>
+      <Point>
+        <coordinates>101.734444,2.757778,32.35</coordinates>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Punto 14</name>
+      <description>Punto del circuito</description>
+      <Point>
+        <coordinates>101.733611,2.758611,36.16</coordinates>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Punto 15</name>
+      <description>Punto del circuito</description>
+      <Point>
+        <coordinates>101.741389,2.760556,37.65</coordinates>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Punto 16</name>
+      <description>Punto del circuito</description>
+      <Point>
+        <coordinates>101.738333,2.760556,35.67</coordinates>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Ruta del circuito</name>
+      <LineString>
+        <extrude>1</extrude>
+        <tessellation>1</tessellation>
+        <coordinates>101.73833,2.76056,35.76
+101.7325,2.76056,37.46
+101.73333,2.76083,35.05
+101.733056,2.763056,23.2
+101.7375,2.765,36.98
+101.738611,2.762222,36.65
+101.740555,2.762778,38.66
+101.742777,2.760556,38.77
+101.7425,2.759444,38.11
+101.738333,2.759167,34.17
+101.739166,2.758333,41.1
+101.738611,2.756389,44.07
+101.736111,2.758056,36.23
+101.734444,2.757778,32.35
+101.733611,2.758611,36.16
+101.741389,2.760556,37.65
+101.738333,2.760556,35.67</coordinates>
+        <altitudeMode>relativeToGround</altitudeMode>
+      </LineString>
+      <Style>
+        <LineStyle>
+          <color>#ff0000ff</color>
+          <width>3</width>
+        </LineStyle>
+      </Style>
+    </Placemark>
+  </Document>
+</kml>

@@ -1,0 +1,17 @@
+/* Miguel Arias Guerrero UO288285*/
+ /* Estilos generales del proyecto MotoGP-Desktop*/
+
+
+header{
+  display:flex;
+}
+
+nav{
+  flex-direction: row-reverse;
+}
+
+
+
+
+
+
