@@ -1,0 +1,70 @@
+<!DOCTYPE HTML>
+
+<html lang="es">
+<head>
+    <!-- Datos que describen el documento -->
+    <meta charset="UTF-8" />
+    <title>MotoGP-Meteorología</title>
+    <meta name ="author" content="Miguel Arias Guerrero"/>
+    <meta name ="description" content ="Información de meteorología" />
+    <meta name ="keywords" content ="MotoGP" />
+    <meta name ="viewport" content ="width=device-width, initial-scale=1.0" />
+    <script src="js/Circuito.js"></script>
+    <link rel="stylesheet" type="text/css" href="estilo/estilo.css "/>
+    <link rel="stylesheet" type="text/css" href="estilo/layout.css "/>
+    <link rel="icon" href="multimedia/favicon.ico">
+</head>
+
+<body>
+    <!-- Datos con el contenidos que aparece en el navegador -->
+    <header>
+    <h1>
+        <a href="index.html">MotoGP</a>
+    </h1>
+    <nav>
+        <a href = "index.html" title = "Información general">Inicio</a>
+        <a href = "piloto.html" title = "Información del piloto">Piloto</a>
+        <a href = "circuito.html" title = "Información del circuito">Circuito</a>
+        <a class="active" href = "meteorologia.html" title = "Información de la meteorología">Meteorología</a>
+        <a href = "clasificaciones.html" title = "Información de las clasificaciones">Clasificaciones</a>
+        <a href = "juegos.html" title = "Información de los juegos">Juegos</a>
+        <a href = "ayuda.html" title = "Información de la ayuda">Ayuda</a>
+    </nav>
+    </header>
+    <p>Estás en <a href="index.html">Inicio</a> | <strong>Meteorología</strong></p>
+
+    <h2>Meteorología de MotoGP-Desktop</h2>
+    <script>
+        
+        var ciudad = new Ciudad("Kuala Lumpur", "Malasia", "kualalumpurense");
+        const contenedor = document.createElement("section");
+        
+        const h3 = document.createElement("h3");
+        h3.textContent = "Información de la ciudad";
+        contenedor.appendChild(h3);
+
+        const p1 = document.createElement("p");
+        p1.textContent = "Nombre: " + ciudad.darNombreCiudad();
+        contenedor.appendChild(p1);
+        
+        const p2 = document.createElement("p");
+        p2.textContent =" País: " + ciudad.darNombrePais();
+        contenedor.appendChild(p2);
+
+        const h4 = document.createElement("h3");
+        h4.textContent = "Información adicional";
+        contenedor.appendChild(h4);
+        
+        const section = document.createElement("section");
+        section.innerHTML = ciudad.darInfo();
+        contenedor.appendChild(section);
+
+        document.body.append(contenedor);
+        ciudad.darCoordenadas(); // Método que ya usa document.write()
+
+        
+      </script>
+    
+    
+</body>
+</html>

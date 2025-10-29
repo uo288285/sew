@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1">
+  <rect x="0" y="0" width="653" height="390" fill="white" stroke-width="1" stroke="black" />
+  <line x1="60" y1="60" x2="60" y2="330" stroke="black" stroke-width="1" />
+  <line x1="60" y1="330" x2="593" y2="330" stroke="black" stroke-width="1" />
+  <polyline points="60,330 124.0,142.7 134.5,154.75 160.0,214.0 212.0,145.10000000000002 245.0,146.75 269.4,136.70000000000002 305.4,136.14999999999998 316.8,139.45 365.3,159.14999999999998 379.3,124.5 399.5,109.64999999999998 432.5,148.85000000000002 452.0,168.25 467.0,149.20000000000002 557.5,141.75 593.3000000000001,151.64999999999998" stroke="red" stroke-width="2" fill="none" />
+  <line x1="60.0" y1="330" x2="60.0" y2="335" stroke="black" stroke-width="1" />
+  <text x="50.0" y="350" font-family="Verdana" font-size="12" style="none">0</text>
+  <line x1="166.60000000000002" y1="330" x2="166.60000000000002" y2="335" stroke="black" stroke-width="1" />
+  <text x="156.60000000000002" y="350" font-family="Verdana" font-size="12" style="none">1066</text>
+  <line x1="273.20000000000005" y1="330" x2="273.20000000000005" y2="335" stroke="black" stroke-width="1" />
+  <text x="263.20000000000005" y="350" font-family="Verdana" font-size="12" style="none">2132</text>
+  <line x1="379.8" y1="330" x2="379.8" y2="335" stroke="black" stroke-width="1" />
+  <text x="369.8" y="350" font-family="Verdana" font-size="12" style="none">3198</text>
+  <line x1="486.40000000000003" y1="330" x2="486.40000000000003" y2="335" stroke="black" stroke-width="1" />
+  <text x="476.40000000000003" y="350" font-family="Verdana" font-size="12" style="none">4264</text>
+  <line x1="593.0" y1="330" x2="593.0" y2="335" stroke="black" stroke-width="1" />
+  <text x="583.0" y="350" font-family="Verdana" font-size="12" style="none">5330</text>
+  <line x1="55" y1="330" x2="60" y2="330" stroke="black" stroke-width="1" />
+  <text x="25" y="335" font-family="Verdana" font-size="12" style="none">0</text>
+  <line x1="55" y1="280" x2="60" y2="280" stroke="black" stroke-width="1" />
+  <text x="25" y="285" font-family="Verdana" font-size="12" style="none">10</text>
+  <line x1="55" y1="230" x2="60" y2="230" stroke="black" stroke-width="1" />
+  <text x="25" y="235" font-family="Verdana" font-size="12" style="none">20</text>
+  <line x1="55" y1="180" x2="60" y2="180" stroke="black" stroke-width="1" />
+  <text x="25" y="185" font-family="Verdana" font-size="12" style="none">30</text>
+  <line x1="55" y1="130" x2="60" y2="130" stroke="black" stroke-width="1" />
+  <text x="25" y="135" font-family="Verdana" font-size="12" style="none">40</text>
+  <line x1="55" y1="80" x2="60" y2="80" stroke="black" stroke-width="1" />
+  <text x="25" y="85" font-family="Verdana" font-size="12" style="none">50</text>
+  <text x="286.5" y="375" font-family="Verdana" font-size="14" style="font-weight:bold">Distancia (m)</text>
+  <text x="5" y="45" font-family="Verdana" font-size="14" style="font-weight:bold">Altitud (m)</text>
+</svg>
