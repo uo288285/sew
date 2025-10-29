@@ -51,15 +51,24 @@
         p2.textContent =" País: " + ciudad.darNombrePais();
         contenedor.appendChild(p2);
 
-        const h4 = document.createElement("h3");
-        h4.textContent = "Información adicional";
-        contenedor.appendChild(h4);
-        
-        const section = document.createElement("section");
-        section.innerHTML = ciudad.darInfo();
-        contenedor.appendChild(section);
-
+    
         document.body.append(contenedor);
+
+        const article = document.createElement("article");
+
+        const h4 = document.createElement("h4");
+        h4.textContent = "Información adicional";
+        article.appendChild(h4);
+
+        const section = document.createElement("div");
+        section.innerHTML = ciudad.darInfo();
+        article.appendChild(section);
+        
+        document.body.append(article);
+
+        
+        
+        
         ciudad.darCoordenadas(); // Método que ya usa document.write()
 
         
