@@ -1,0 +1,36 @@
+en el layout queremos que el h2 pongamos la primeras 4 casillas, 
+en el main display:grid 
+grid template columns, grid template rows
+usaremos método repeat para tener la misma cantidad, repeat(4,1fr) crea 4 columnas de 1 fracción
+grid-gap: 2 w
+usar main h2{grid-column usar para ocupar toda la primera columna
+
+meter links a las css
+usar media quaries para pasar disposición en layout y tb cambiar tamaño tarjeta
+
+
+
+usar atributo onclick en los atributos <article onclick="memoria.flipCard(this)">
+
+
+en clase memoria, constructor vacio y método flipcard
+
+data.state= "flip"
+
+
+
+usaremos temporal pero si no se puede usar se usara date, lo recogeremos con excepciones. Comprobar con dif navegadores
+en cronometro pondremos el tiempo a cero en const
+en inicio tendremos ref del mom actual
+arrancar - control de excepciones para mirar si hay 
+actualizar constantemente cada decima de segundo, compara el moment actual con el de inicio, pone el valor en tiempo
+usaremos el setinterval que recibe una función y una cantidad de tiempo this.corriendo = setInterval()
+tendremos que hacer conversion a minutos segundos y decimas de segunda , nos darán los milisegundos
+<p>00:00:0<p> usar parse Int 
+usar el clear interval que le pasamos el corriendo
+limpiar el intervalo y poner atributo cero y llamar a mostrar
+query selector sacar los elementos que queremos barajar, quitaremos el primer elemento no necesario quitar elementos y meterlo de vuelta 
+comprobarjuego contar cartas reveladas
+llamar comprobar juego cuando se hace una pareja 
+
+encima de memoria ponemos el cronometro

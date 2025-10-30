@@ -9,7 +9,7 @@
     <meta name ="description" content ="Información de meteorología" />
     <meta name ="keywords" content ="MotoGP" />
     <meta name ="viewport" content ="width=device-width, initial-scale=1.0" />
-    <script src="js/Circuito.js"></script>
+    <script src="js/ciudad.js"></script>
     <link rel="stylesheet" type="text/css" href="estilo/estilo.css "/>
     <link rel="stylesheet" type="text/css" href="estilo/layout.css "/>
     <link rel="icon" href="multimedia/favicon.ico">
@@ -51,22 +51,14 @@
         p2.textContent =" País: " + ciudad.darNombrePais();
         contenedor.appendChild(p2);
 
-    
-        document.body.append(contenedor);
-
-        const article = document.createElement("article");
-
         const h4 = document.createElement("h4");
         h4.textContent = "Información adicional";
-        article.appendChild(h4);
+        contenedor.appendChild(h4);
 
-        const section = document.createElement("div");
-        section.innerHTML = ciudad.darInfo();
-        article.appendChild(section);
-        
-        document.body.append(article);
+        document.body.append(contenedor);
 
         
+        ciudad.darInfo();
         
         
         ciudad.darCoordenadas(); // Método que ya usa document.write()
