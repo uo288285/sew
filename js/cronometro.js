@@ -1,50 +1,67 @@
 class Cronometro{
     constructor(){
         this.tiempo = 0;
-        this.arrancar();
+        this.inicio = null;
+        this.corriendo = null;
     }
 
 
     arrancar(){
         if(this.inicio == null){
             try{
-                this.inicio = Temporal.now.instant();
+                this.inicio = Temporal.Now.instant();
             }catch(err){
                 this.inicio = Date.now();
             }
-            this.corriendo = this.actualizar();
+            this.corriendo = setInterval(this.actualizar.bind(this), 100);
         }
         
     }
 
 
     actualizar(){
-        try{
-            this.tiempo = setInterval(Temporal.now.instant() - this.inicio,100);
-        }catch(err){
-            this.tiempo = setInterval(Date.now() - this.inicio,100);
+        let ahora;
+        try {
+            ahora = Temporal.Now.instant();
+            this.tiempo = ahora.since(this.inicio).total('milliseconds');
+        } catch (err) {
+            ahora =  Date.now();
+            this.tiempo = ahora - this.inicio;
         }
+        this.mostrar();
         
     }
 
-    mostrar(){
-        minutos = parseInt(tiempo/60000);
-        restaMinutos = tiempo%60000;
-        segundos = parseInt(restaMinutos/1000);
-        restaSegundos = segundos%1000;
-        decimasSegundo = parseInt(restaSegundos/100);
+    mostrar() {
+    
+    const minutos = parseInt(this.tiempo / 60000);
+    const segundos = parseInt((this.tiempo % 60000) / 1000);
+    const decimas = parseInt((this.tiempo % 1000) / 100);
 
-        const p = document.querySelector('main').querySelector('p');
-        p.innerText = " "+minutos + " " + segundos + " " + decimasSegundo;
-    }
+    
+    const minutosTexto = (minutos < 10 ? "0" : "") + minutos;
+    const segundosTexto = (segundos < 10 ? "0" : "") + segundos;
+
+    
+    const texto = minutosTexto + ":" + segundosTexto + "." + decimas;
+
+
+    const p = document.querySelector('main p');
+    p.innerText = texto;
+}
+
 
     parar(){
-        this.corriendo = clearInterval(this.tiempo)
+        clearInterval(this.corriendo);
+        this.corriendo = null;
     }
 
     reiniciar(){
-        this.corriendo = clearInterval(this.tiempo);
+        this.parar();
         this.tiempo = 0;
-        mostrar();
+        this.inicio = null;
+        this.mostrar();
     }
+
+    
 }

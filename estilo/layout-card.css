@@ -10,7 +10,7 @@ main {
 }
 
 /* El primer elemento (por ejemplo, el encabezado) ocupa toda la fila */
-main h2 {
+main h2, main p {
   grid-column: 1 / -1;
 }
 
