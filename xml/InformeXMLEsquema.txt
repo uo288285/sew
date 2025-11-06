@@ -1,0 +1,59 @@
+primera parte cambio tipo
+fecha sera tipo
+hora tipo de hora
+duration la duración de la carrera
+segunda parte del informe serán los rangos 
+tercera parte restricciones se aplica a tipo simples 
+latitud entre menos 90 grados y mas 90 grados
+longitud enntre -180 y 180 grados
+altitud entre 0 y 5000 metros 
+restricciones para comprobar datos 
+comprobar codificación es UTF-8
+
+contar espacio de nombres "http://www.uniovi.es"
+
+el anterior tenia dtd, enlace al esquema, copiar del ejercicio resuelta
+
+validarlo el schema , pintar el arbol
+
+
+generación kml, escribir phyton circuito, abrir kml local desde google earth y se guarda con opera en pdf
+
+latitud, longitud, altitud sera 0, tres partes 
+primero cargar xml y usar xpath para sacar la longitud y la latitud, siempre xpath. usar ejemplo del campus,
+tener en cuenta que tenemos prefijo latitud, no usar if anidados
+luego de tener el arbol
+
+
+svg usarremos la distanica y la altitud, van hacia abajo, cambio de coordenadas 
+
+
+html sacamos todo menos los puntos. clase a definir no como lo anterior, enlazar con css. usaremos posteriormente
+
+
+
+
+
+
+Informe cambio de tipos:
+se ha modificado en anchura de xs:string a xs:integer
+se ha modificado en longitud de xs:string a xs:integer
+se ha modificado en tiempoGanador de xs:string a xs:duration
+se ha modificado en fecha de xs:string a xs:date
+se ha modificado en hora de xs:string a xs:time
+se ha modificado en vueltas de xs:string a xs:integer
+se ha modificado en en el atributo puesto de piloto de xs:string a xs:integer
+se ha modificado en sector de xs:string a xs:integer
+se ha modificado en tramo de xs:string a xs:double
+se ha modificado en longitudC de xs:string a xs:double
+se ha modificado en latitud de xs:string a xs:double
+se ha modificado en altitud de xs:string a xs:double
+
+
+
+
+
+Informe de rangos: se ha modificado el minOccurs a 3 en el elemento referencias
+se ha modificado el elemento galeríaFoto poniendo el maxOccurs a 5
+se ha modificado el elemento galeríaVideo poniendo el maxOccurs a 3
+se ha modificado el elemento galeríaVideo poniendo el maxOccurs a 3
