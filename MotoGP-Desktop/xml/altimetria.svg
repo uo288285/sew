@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1">
+  <text x="500" y="30" font-family="Verdana" font-size="16" style="fill:black; font-weight:bold">Gráfica de Longitud/Altitud (m)</text>
+  <line x1="100" y1="350" x2="1100" y2="350" stroke="black" stroke-width="2" />
+  <line x1="100" y1="50" x2="100" y2="350" stroke="black" stroke-width="2" />
+  <line x1="100.0" y1="350" x2="100.0" y2="355" stroke="black" stroke-width="1" />
+  <text x="85.0" y="370" font-family="Verdana" font-size="12" style="fill:black">0</text>
+  <line x1="193.75585974123382" y1="350" x2="193.75585974123382" y2="355" stroke="black" stroke-width="1" />
+  <text x="178.75585974123382" y="370" font-family="Verdana" font-size="12" style="fill:black">500</text>
+  <line x1="287.51171948246764" y1="350" x2="287.51171948246764" y2="355" stroke="black" stroke-width="1" />
+  <text x="272.51171948246764" y="370" font-family="Verdana" font-size="12" style="fill:black">1000</text>
+  <line x1="381.2675792237015" y1="350" x2="381.2675792237015" y2="355" stroke="black" stroke-width="1" />
+  <text x="366.2675792237015" y="370" font-family="Verdana" font-size="12" style="fill:black">1500</text>
+  <line x1="475.0234389649353" y1="350" x2="475.0234389649353" y2="355" stroke="black" stroke-width="1" />
+  <text x="460.0234389649353" y="370" font-family="Verdana" font-size="12" style="fill:black">2000</text>
+  <line x1="568.7792987061691" y1="350" x2="568.7792987061691" y2="355" stroke="black" stroke-width="1" />
+  <text x="553.7792987061691" y="370" font-family="Verdana" font-size="12" style="fill:black">2500</text>
+  <line x1="662.535158447403" y1="350" x2="662.535158447403" y2="355" stroke="black" stroke-width="1" />
+  <text x="647.535158447403" y="370" font-family="Verdana" font-size="12" style="fill:black">3000</text>
+  <line x1="756.2910181886367" y1="350" x2="756.2910181886367" y2="355" stroke="black" stroke-width="1" />
+  <text x="741.2910181886367" y="370" font-family="Verdana" font-size="12" style="fill:black">3500</text>
+  <line x1="850.0468779298706" y1="350" x2="850.0468779298706" y2="355" stroke="black" stroke-width="1" />
+  <text x="835.0468779298706" y="370" font-family="Verdana" font-size="12" style="fill:black">4000</text>
+  <line x1="943.8027376711044" y1="350" x2="943.8027376711044" y2="355" stroke="black" stroke-width="1" />
+  <text x="928.8027376711044" y="370" font-family="Verdana" font-size="12" style="fill:black">4500</text>
+  <line x1="1037.5585974123383" y1="350" x2="1037.5585974123383" y2="355" stroke="black" stroke-width="1" />
+  <text x="1022.5585974123383" y="370" font-family="Verdana" font-size="12" style="fill:black">5000</text>
+  <line x1="1100.0" y1="350" x2="1100.0" y2="355" stroke="black" stroke-width="1" />
+  <text x="1080.0" y="370" font-family="Verdana" font-size="12" style="fill:black">5333</text>
+  <line x1="95" y1="350.0" x2="100" y2="350.0" stroke="black" stroke-width="1" />
+  <text x="60" y="355.0" font-family="Verdana" font-size="12" style="fill:black">0</text>
+  <line x1="95" y1="315.9632402995235" x2="100" y2="315.9632402995235" stroke="black" stroke-width="1" />
+  <text x="60" y="320.9632402995235" font-family="Verdana" font-size="12" style="fill:black">5</text>
+  <line x1="95" y1="281.92648059904695" x2="100" y2="281.92648059904695" stroke="black" stroke-width="1" />
+  <text x="60" y="286.92648059904695" font-family="Verdana" font-size="12" style="fill:black">10</text>
+  <line x1="95" y1="247.88972089857046" x2="100" y2="247.88972089857046" stroke="black" stroke-width="1" />
+  <text x="60" y="252.88972089857046" font-family="Verdana" font-size="12" style="fill:black">15</text>
+  <line x1="95" y1="213.85296119809394" x2="100" y2="213.85296119809394" stroke="black" stroke-width="1" />
+  <text x="60" y="218.85296119809394" font-family="Verdana" font-size="12" style="fill:black">20</text>
+  <line x1="95" y1="179.81620149761744" x2="100" y2="179.81620149761744" stroke="black" stroke-width="1" />
+  <text x="60" y="184.81620149761744" font-family="Verdana" font-size="12" style="fill:black">25</text>
+  <line x1="95" y1="145.77944179714092" x2="100" y2="145.77944179714092" stroke="black" stroke-width="1" />
+  <text x="60" y="150.77944179714092" font-family="Verdana" font-size="12" style="fill:black">30</text>
+  <line x1="95" y1="111.7426820966644" x2="100" y2="111.7426820966644" stroke="black" stroke-width="1" />
+  <text x="60" y="116.7426820966644" font-family="Verdana" font-size="12" style="fill:black">35</text>
+  <line x1="95" y1="77.70592239618787" x2="100" y2="77.70592239618787" stroke="black" stroke-width="1" />
+  <text x="60" y="82.70592239618787" font-family="Verdana" font-size="12" style="fill:black">40</text>
+  <polyline points="100,106.56909462219198 220.00750046877928,94.99659632402995 239.69623101443838,111.40231449965967 287.51171948246764,192.069434989789 385.0178136133508,98.26412525527573 446.89668104256515,100.51055139550718 492.64954059628724,86.8277739959156 560.1537596099756,86.07896528250512 581.5300956309769,90.57181756296802 672.4732795799737,117.3927842069435 698.7249203075191,70.21783526208304 736.6022876429777,50.0 798.481155072192,103.3696392103472 835.0459403712731,129.78216473791696 863.1726982936433,103.84615384615387 1032.8708044252767,93.70319945541189 1100.0,107.18175629680053 1100,350 100,350" stroke="red" stroke-width="2" fill="lightblue" />
+</svg>
