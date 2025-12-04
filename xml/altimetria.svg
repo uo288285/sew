@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" version="2.0">
+  <text x="500" y="30" font-family="Verdana" font-size="16" style="fill:black; font-weight:bold">Gráfica de Longitud/Altitud (m)</text>
+  <line x1="100" y1="350" x2="1100" y2="350" stroke="black" stroke-width="2" />
+  <line x1="100" y1="50" x2="100" y2="350" stroke="black" stroke-width="2" />
+  <line x1="100.0" y1="350" x2="100.0" y2="355" stroke="black" stroke-width="1" />
+  <text x="85.0" y="370" font-family="Verdana" font-size="12" style="fill:black">0</text>
+  <line x1="190.20386072523905" y1="350" x2="190.20386072523905" y2="355" stroke="black" stroke-width="1" />
+  <text x="175.20386072523905" y="370" font-family="Verdana" font-size="12" style="fill:black">500</text>
+  <line x1="280.4077214504781" y1="350" x2="280.4077214504781" y2="355" stroke="black" stroke-width="1" />
+  <text x="265.4077214504781" y="370" font-family="Verdana" font-size="12" style="fill:black">1000</text>
+  <line x1="370.61158217571716" y1="350" x2="370.61158217571716" y2="355" stroke="black" stroke-width="1" />
+  <text x="355.61158217571716" y="370" font-family="Verdana" font-size="12" style="fill:black">1500</text>
+  <line x1="460.81544290095616" y1="350" x2="460.81544290095616" y2="355" stroke="black" stroke-width="1" />
+  <text x="445.81544290095616" y="370" font-family="Verdana" font-size="12" style="fill:black">2000</text>
+  <line x1="551.0193036261952" y1="350" x2="551.0193036261952" y2="355" stroke="black" stroke-width="1" />
+  <text x="536.0193036261952" y="370" font-family="Verdana" font-size="12" style="fill:black">2500</text>
+  <line x1="641.2231643514343" y1="350" x2="641.2231643514343" y2="355" stroke="black" stroke-width="1" />
+  <text x="626.2231643514343" y="370" font-family="Verdana" font-size="12" style="fill:black">3000</text>
+  <line x1="731.4270250766733" y1="350" x2="731.4270250766733" y2="355" stroke="black" stroke-width="1" />
+  <text x="716.4270250766733" y="370" font-family="Verdana" font-size="12" style="fill:black">3500</text>
+  <line x1="821.6308858019123" y1="350" x2="821.6308858019123" y2="355" stroke="black" stroke-width="1" />
+  <text x="806.6308858019123" y="370" font-family="Verdana" font-size="12" style="fill:black">4000</text>
+  <line x1="911.8347465271514" y1="350" x2="911.8347465271514" y2="355" stroke="black" stroke-width="1" />
+  <text x="896.8347465271514" y="370" font-family="Verdana" font-size="12" style="fill:black">4500</text>
+  <line x1="1002.0386072523904" y1="350" x2="1002.0386072523904" y2="355" stroke="black" stroke-width="1" />
+  <text x="987.0386072523904" y="370" font-family="Verdana" font-size="12" style="fill:black">5000</text>
+  <line x1="1100.0" y1="350" x2="1100.0" y2="355" stroke="black" stroke-width="1" />
+  <text x="1080.0" y="370" font-family="Verdana" font-size="12" style="fill:black">5543</text>
+  <line x1="95" y1="350.0" x2="100" y2="350.0" stroke="black" stroke-width="1" />
+  <text x="60" y="355.0" font-family="Verdana" font-size="12" style="fill:black">0</text>
+  <line x1="95" y1="316.04798551380713" x2="100" y2="316.04798551380713" stroke="black" stroke-width="1" />
+  <text x="60" y="321.04798551380713" font-family="Verdana" font-size="12" style="fill:black">5</text>
+  <line x1="95" y1="282.09597102761427" x2="100" y2="282.09597102761427" stroke="black" stroke-width="1" />
+  <text x="60" y="287.09597102761427" font-family="Verdana" font-size="12" style="fill:black">10</text>
+  <line x1="95" y1="248.14395654142146" x2="100" y2="248.14395654142146" stroke="black" stroke-width="1" />
+  <text x="60" y="253.14395654142146" font-family="Verdana" font-size="12" style="fill:black">15</text>
+  <line x1="95" y1="214.1919420552286" x2="100" y2="214.1919420552286" stroke="black" stroke-width="1" />
+  <text x="60" y="219.1919420552286" font-family="Verdana" font-size="12" style="fill:black">20</text>
+  <line x1="95" y1="180.23992756903576" x2="100" y2="180.23992756903576" stroke="black" stroke-width="1" />
+  <text x="60" y="185.23992756903576" font-family="Verdana" font-size="12" style="fill:black">25</text>
+  <line x1="95" y1="146.2879130828429" x2="100" y2="146.2879130828429" stroke="black" stroke-width="1" />
+  <text x="60" y="151.2879130828429" font-family="Verdana" font-size="12" style="fill:black">30</text>
+  <line x1="95" y1="112.33589859665005" x2="100" y2="112.33589859665005" stroke="black" stroke-width="1" />
+  <text x="60" y="117.33589859665005" font-family="Verdana" font-size="12" style="fill:black">35</text>
+  <line x1="95" y1="78.38388411045719" x2="100" y2="78.38388411045719" stroke="black" stroke-width="1" />
+  <text x="60" y="83.38388411045719" font-family="Verdana" font-size="12" style="fill:black">40</text>
+  <polyline points="100,107.17519239474876 210.4095255276926,95.63150746944316 217.26501894281074,95.63150746944316 222.49684286487462,95.76731552738795 228.4502976727404,95.63150746944316 239.0943532383186,107.58261656858303 246.13025437488724,115.79900407424171 261.82572614107886,146.2879130828429 269.76366588489986,163.12811226799457 284.9179144867401,185.1290176550475 296.64441638102113,196.26527840651877 303.8607252390402,197.75916704391125 383.2401226772506,104.39112720688092 386.4874616633592,99.63784517881393 389.9152083709183,95.97102761430511 432.8522460761321,81.23585332729743 444.7591556918636,96.8537799909461 458.10932707919903,103.50837483023994 466.04726682302004,103.77999094612946 474.8872451740935,100.2489814395654 487.8766011185279,88.90900860117699 498.3402489626556,87.07559981892257 509.1647122496843,87.00769578995022 562.3849900775754,86.60027161611589 565.4519213422335,86.93979176097781 583.6731012087319,92.57582616568584 669.0059534548079,119.53372566772296 672.2532924409165,116.13852421910366 694.2630344578748,74.7170665459484 704.0050514162007,63.64870982344951 718.7984845751398,51.018560434585766 733.0506945697276,50.0 739.5453725419449,52.03712086917153 791.683204041133,100.65640561339973 799.981959227855,108.39746491625169 823.2545552949666,129.3119058397465 836.604726682302,128.83657763693978 850.3157135125384,115.66319601629698 859.3360995850622,105.81711181530102 864.9287389500271,101.81077410593028 1020.0793793974383,100.86011770031689 1027.836911419809,94.34133091896786 1035.2336279992783,97.39701222272518 1100.0,107.17519239474876 1100,350 100,350" stroke="red" stroke-width="2" fill="lightblue" />
+</svg>
