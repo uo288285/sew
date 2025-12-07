@@ -1,0 +1,24 @@
+Informe cambio de tipos:
+se ha modificado en anchuraCircuito de xs:string a xs:integer
+se ha modificado en longitudCircuito de xs:string a xs:integer
+se ha modificado en tiempoGanador de xs:string a xs:duration
+se ha modificado en fecha de xs:string a xs:date
+se ha modificado en hora de xs:string a xs:time
+se ha modificado en vueltas de xs:string a xs:integer
+se ha modificado en en el atributo puesto de piloto de xs:string a xs:integer
+se ha modificado en sector de xs:string a xs:integer
+se ha modificado en tramo de xs:string a xs:double
+se ha modificado en longitud de xs:string a xs:double
+se ha modificado en latitud de xs:string a xs:double
+se ha modificado en altitud de xs:string a xs:double
+
+
+Informe de rangos: se ha modificado el minOccurs a 3 en el elemento referencias
+se ha modificado el elemento galeríaFoto poniendo el maxOccurs a 5
+se ha modificado el elemento galeríaVideo poniendo el maxOccurs a 3
+se ha modificado el elemento clasificacion poniendo el minOccurs y maxOccurs a 3
+
+Informe de restricciones:
+Respecto a las coordenadas, la latitud deberá estar entre -90 y 90.
+La longitudC deberá estar entre -180 y 180
+La altitud deberá estar entre 0 y 5000
