@@ -1,0 +1,107 @@
+/* Miguel Arias Guerrero UO288285*/
+/* Estilos generales del proyecto MotoGP-Desktop*/
+
+@media screen {
+  header {
+    display: flex;
+    justify-content: flex-start;
+    flex-flow: column wrap;
+  }
+  header nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  article h2 + img {
+    width: 85%;
+    height: auto;
+  }
+
+  body > div {
+    width: 100%;
+    height: 70vh;
+  }
+
+  video {
+    width: 100%;
+    height: auto;
+  }
+
+  audio {
+    width: 100%;
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 1rem;
+  }
+
+  picture img {
+    width: auto;
+    height: auto;
+    max-width: 100%;
+  }
+
+  form {
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+  input[type="file"] {
+    max-width: 100%;
+    min-width: 100%;
+    width: fit-content;
+    white-space: normal;
+    margin-bottom: 1.1rem;
+    margin-top: 1.1rem;
+  }
+
+  input[type="submit"] {
+    margin: 0.5rem 0.5rem;
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 0.2rem solid;
+    margin-top: 2rem;
+  }
+
+  th,
+  td {
+    border: 0.1rem solid;
+    padding: 0.2em;
+    text-align: center;
+  }
+
+  a {
+    word-break: break-all;
+  }
+}
+
+@media (max-width: 799px) {
+  header nav {
+    justify-content: space-between; /*advertencia por redifinición, necesaria*/
+  }
+}
+
+@media (max-width: 465px) {
+  header nav {
+    flex-direction: column; /*advertencia por redifinición, necesaria*/
+    gap: 1rem;
+  }
+  header + p {
+    display: none;
+  }
+  article h2 + img {
+    width: 100%;
+    height: auto;
+  }
+}
