@@ -38,7 +38,7 @@ $cronometro = $_SESSION["cronometro"];
         </nav>
     </header>
 
-    <p>Estás en <a href="index.html">Inicio</a> | <a href="juegos.html">Juegos</a>|<strong> CronometroPHP</strong></p>
+    <p>Estás en <a href="index.html">Inicio</a> | <a href="juegos.html">Juegos</a> |<strong> CronometroPHP</strong></p>
     <main>
         <h2>CronómetroPHP de MotoGP-Desktop</h2>
 
