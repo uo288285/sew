@@ -1,0 +1,13 @@
+﻿id_usuario,profesion,edad,genero,pericia_informatica,dispositivo,tiempo_segundos,tarea_completada,comentarios_usuario,propuestas_mejora,valoracion,comentarios_facilitador
+1,Profesor,39,Hombre,10,tableta,143,1,"Organizacion de la información del piloto puede mejorarse para encontrar la información mas facilmente. Fecha de la carrera no sale como tal.","Incluir fecha de la carrera y reorganizar información en piloto",9,"Incluir la fecha de la carrera en meteorología.html para que se pueda responder de forma correcta la pregunta."
+numero_pregunta,respuesta
+1,Figueres
+2,Malasia
+3,"Alex Marquez"
+4,"Marc Marquez"
+5,26-10-2025
+6,"40 minutos 9 segundos"
+7,2013
+8,"una curva doble"
+9,malayo
+10,1995
