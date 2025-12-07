@@ -34,7 +34,9 @@ class Circuito {
     if (!(window.File && window.FileReader && window.FileList && window.Blob)) {
       let p = document.createElement("p");
       p.textContent = "Este navegador no soporta el API File";
-      document.body.insertBefore(p, document.querySelector("h2 + p"));
+      let main = document.querySelector("main");
+      let primerParrafo = main.querySelector("h2 + p");
+      main.insertBefore(p, primerParrafo);
     }
   }
 
@@ -82,7 +84,8 @@ class Circuito {
 
     seccion.innerHTML += htmlACopiar;
 
-    document.body.appendChild(seccion);
+    let main = document.querySelector("main");
+    main.appendChild(seccion);
   }
 }
 
@@ -111,7 +114,8 @@ class CargadorSVG {
     let titulo = document.createElement("h2");
     titulo.textContent = "Contenido del archivo cargado:";
     contenedor.appendChild(titulo);
-    document.body.appendChild(contenedor);
+    let main = document.querySelector("main");
+    main.appendChild(contenedor);
 
     const parser = new DOMParser();
     const documentoSVG = parser.parseFromString(contenidoSVG, "image/svg+xml");
