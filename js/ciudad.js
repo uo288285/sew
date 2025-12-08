@@ -36,9 +36,9 @@ class Ciudad {
   }
 
   darInfo() {
-    return `<li>El gentilicio es ${
-      this.#gentilicio
-    }</li><li>La población es de ${this.#cantidadPoblacion} habitantes</li>`;
+    return `<li>El gentilicio es ${this.#gentilicio}</li><li> ${
+      this.#cantidadPoblacion
+    }</li>`;
   }
 
   darCoordenadas() {
