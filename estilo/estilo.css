@@ -65,6 +65,6 @@ dl dt {
 }
 
 caption {
-  font-family: "Rock Salt", cursive;
-  font-style: italic;
+  font-style: bold;
+  font-size: 1.2rem;
 }

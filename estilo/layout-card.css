@@ -3,12 +3,11 @@
 
 main {
   display: grid;
-  grid-template-columns: repeat(4, 1fr); /* 4 columnas iguales */
-  gap: 1rem; /* espacio entre elementos (relativo al tamaño de fuente) */
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
   padding: 1rem;
 }
 
-/* El primer elemento (por ejemplo, el encabezado) ocupa toda la fila */
 main h2,
 main p {
   grid-column: 1 / -1;
@@ -17,7 +16,10 @@ main p {
 
 @media (max-width: 768px) {
   main {
-    grid-template-columns: repeat(2, 1fr); /* 2 columnas */
+    grid-template-columns: repeat(
+      2,
+      1fr
+    ); /* redifinición necesaria para mejor visualización de las cartas en dispositivos más pequeños */
   }
 
   main article {

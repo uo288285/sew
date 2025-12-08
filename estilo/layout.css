@@ -39,9 +39,15 @@
   }
 
   img {
-    width: 100%;
+    width: 60%;
     height: auto;
-    margin-bottom: 1rem;
+    margin: 0 auto 1rem auto; /* centrado horizontal + margen inferior */
+    display: block; /* Necesario para que margin auto funcione */
+  }
+
+  picture {
+    display: flex;
+    justify-content: center; /* centrado horizontal */
   }
 
   picture img {
@@ -81,12 +87,19 @@
     text-align: center;
   }
 
-  a {
+  main a {
+    display: block;
     word-break: break-all;
+    width: fit-content;
+    margin-bottom: 0.1rem;
   }
 
   main {
     margin-bottom: 2rem;
+  }
+
+  li {
+    margin-bottom: 0.2rem;
   }
 }
 
