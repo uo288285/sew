@@ -15,7 +15,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" type="text/css" href="../estilo/estilo.css" />
     <link rel="stylesheet" type="text/css" href="../estilo/layout.css" />
-    <link rel="icon" href="multimedia/favicon.ico" />
+    <link rel="icon" href="../multimedia/favicon.ico" />
   </head>
 
   <body>
@@ -38,24 +38,55 @@
       <button type="submit" name="importar">Importar CSV</button>
     </form>
 
-    <form method="post">
-      <h3>Introduce los datos del ususario</h3>
+    <form method="post" autocomplete="off">
+      <h3>Introduce los datos del usuario</h3>
+
       <p>
-        Género: <input type="radio" name="genero" value="Hombre" />Hombre
-        <input type="radio" name="genero" value="Mujer" />Mujer
+        Género:
+        <input type="radio" id="generoHombre" name="genero" value="Hombre" />
+        <label for="generoHombre">Hombre</label>
+        <input type="radio" id="generoMujer" name="genero" value="Mujer" />
+        <label for="generoMujer">Mujer</label>
       </p>
 
-      <p>Profesión: <input type="text" name="profesion" /></p>
+      <p>
+        <label for="profesion">Profesión:</label>
+        <input type="text" id="profesion" name="profesion" />
+      </p>
 
-      <p>Edad: <input type="text" name="edad" /></p>
+      <p>
+        <label for="edad">Edad:</label>
+        <input type="text" id="edad" name="edad" />
+      </p>
 
-      <p>Pericia informática: <input type="text" name="pericia" /></p>
+      <p>
+        <label for="pericia">Pericia informática:</label>
+        <input type="text" id="pericia" name="pericia" />
+      </p>
 
       <p>
         Dispositivo:
-        <input type="radio" name="dispositivo" value="ordenador" />Ordenador
-        <input type="radio" name="dispositivo" value="tableta" />Tableta
-        <input type="radio" name="dispositivo" value="telefono" />Telefono
+        <input
+          type="radio"
+          id="dispositivoOrdenador"
+          name="dispositivo"
+          value="ordenador"
+        />
+        <label for="dispositivoOrdenador">Ordenador</label>
+        <input
+          type="radio"
+          id="dispositivoTableta"
+          name="dispositivo"
+          value="tableta"
+        />
+        <label for="dispositivoTableta">Tableta</label>
+        <input
+          type="radio"
+          id="dispositivoTelefono"
+          name="dispositivo"
+          value="telefono"
+        />
+        <label for="dispositivoTelefono">Teléfono</label>
       </p>
 
       <input type="submit" name="nuevoUsuario" value="Enviar a base de datos" />
