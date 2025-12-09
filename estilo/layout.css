@@ -1,0 +1,180 @@
+/* Miguel Arias Guerrero UO288285*/
+/* Layout general para MotoGP-Desktop*/
+
+@media screen {
+  /* Selector 011 */
+  input[type="file"] {
+    width: 100%;
+    white-space: normal;
+    margin-bottom: 1.1rem;
+    margin-top: 1.1rem;
+  }
+
+  /* Selector 011 */
+  input[type="submit"] {
+    margin: 0.5rem 0.5rem;
+  }
+
+  /* Selector 003 */
+  section h4 ~ p {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  /* Selector 002 */
+  section h4 {
+    margin-bottom: 0;
+  }
+
+  /* Selector 002 */
+  article h2 + img {
+    width: 85%;
+    height: auto;
+  }
+
+  /* Selector 002 */
+  body > div {
+    width: 100%;
+    height: 70vh;
+  }
+
+  /* Selector 002 */
+  form textarea {
+    display: block;
+  }
+
+  /* Selector 002 */
+  header nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    row-gap: 0.1rem;
+  }
+
+  /* Selector 001 */
+  article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  /* Selector 001 */
+  body {
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+    padding-right: 0.5rem;
+    margin-bottom: 2rem;
+  }
+
+  /* Selector 001 */
+  form {
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+
+  /* Selector 001 */
+  header {
+    display: flex;
+    justify-content: flex-start;
+    flex-flow: column wrap;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+    padding-right: 0.5rem;
+  }
+
+  /* Selector 001 */
+  img {
+    width: 60%;
+    height: auto;
+    margin: 0 auto 1rem auto;
+    display: block;
+  }
+
+  /* Selector 001 */
+  li {
+    margin-bottom: 0.2rem;
+  }
+
+  /* Selector 001 */
+  main {
+    margin-bottom: 0.2rem;
+  }
+
+  /* Selector 002 */
+  main a {
+    display: block;
+    word-break: break-all;
+    width: fit-content;
+    margin-bottom: 0.1rem;
+  }
+
+  /* Selector 001 */
+  picture {
+    display: flex;
+    justify-content: center;
+  }
+
+  /* Selector 002 */
+  picture img {
+    width: auto;
+    height: auto;
+    max-width: 100%;
+  }
+
+  /* Selector 001 */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 0.2rem solid;
+    margin-top: 2rem;
+  }
+
+  /* Selector 001 */
+  /* Selector 001 */
+  th,
+  td {
+    border: 0.1rem solid;
+    padding: 0.2em;
+    text-align: center;
+  }
+
+  /* Selector 001 */
+  video {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+  }
+
+  /* Selector 001 */
+  audio {
+    width: 100%;
+  }
+}
+
+@media (max-width: 799px) {
+  /* Selector 002 */
+  header nav {
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 465px) {
+  /* Selector 002 */
+  header nav {
+    flex-direction: column; /*advertencia por redifinición, necesaria para dispositivos móviles*/
+    gap: 1rem;
+  }
+  /* Selector 002 */
+  header + p {
+    display: none;
+  }
+  /* Selector 003 */
+  article h2 + img {
+    width: 100%; /*advertencia por redifinición, necesaria para dispositivos móviles*/
+  }
+  /* Selector 001 */
+  video {
+    width: 100%;
+    height: auto;
+  }
+}

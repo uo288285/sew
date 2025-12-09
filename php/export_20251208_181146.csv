@@ -1,0 +1,46 @@
+id_usuario,profesion,edad,genero,pericia_informatica,dispositivo,tiempo_segundos,tarea_completada,comentarios_usuario,propuestas_mejora,valoracion,comentarios_facilitador
+1,Profesor,39,Hombre,10,tableta,143,1,"Organizacion de la información del piloto puede mejorarse para encontrar la información mas facilmente. Fecha de la carrera no sale como tal.","Incluir fecha de la carrera y reorganizar información en piloto",9,"Incluir la fecha de la carrera en meteorología.html para que se pueda responder de forma correcta la pregunta."
+2,Administrativo,55,Hombre,6,ordenador,397,1,"Una aplicación interesante para conocer la vida de Maverick Viñales.","En el apartado de Circuito tener que cargar los archivos dificulta la utilización de la aplicación .",9,"Tengo que modificar el test para que no aparezcan las respuestas de anteriores intentos. La ayuda ha servido para que el usuario encuentre la definición de chicane."
+3,Estudiante,17,Hombre,6,telefono,221,1,"los archivos deberían estar dentro de la propia pagina web","no deberian de salir las respuestas completadas por otros usuarios",8,"Cambiar lo de las respuestas del test al finalizar la tanda, al usar el dispositivo móvil fue capaz de encontrar las respuestas de forma rápida."
+4,"Higienista dental",55,Mujer,4,tableta,834,1,"Muy intuitiva.","Es facil no cambiaria nada.",10,"La ayuda solucionó bastantes dudas a la hora de responder, el test fue lento pero seguro."
+id_usuario,numero_pregunta,respuesta
+1,1,Figueres
+1,2,Malasia
+1,3,"Alex Marquez"
+1,4,"Marc Marquez"
+1,5,26-10-2025
+1,6,"40 minutos 9 segundos"
+1,7,2013
+1,8,"una curva doble"
+1,9,malayo
+1,10,1995
+2,1,"Figueres, España"
+2,2,Malasia
+2,3,"Alex Marquez"
+2,4,"Marc Marquez"
+2,5,26/10/25
+2,6,"40 min 09 s"
+2,7,2013
+2,8,"Curva pronunciada"
+2,9,kualalumpurense
+2,10,1995
+3,1,"Figueres, España"
+3,2,Malasia
+3,3,"Alex Marquez"
+3,4,"Marc Marquez"
+3,5,2025-10-26
+3,6,"40 min 09 s"
+3,7,2013
+3,8,"Curva pronunciada"
+3,9,Malayo
+3,10,1995
+4,1,"Figueres España"
+4,2,Malasia
+4,3,"Alex Marquez"
+4,4,"Marc Marquez"
+4,5,2025-10-26.
+4,6,"40 min 09 s"
+4,7,2013
+4,8,"Curva pronunciada"
+4,9,kualalumpurense
+4,10,1995

@@ -1,0 +1,30 @@
+/* Miguel Arias Guerrero UO288285*/
+/* Layout para las cartas de memoria de MotoGP-Desktop*/
+
+main {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+  padding: 1rem;
+}
+
+main h2,
+main p {
+  grid-column: 1 / -1;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  main {
+    grid-template-columns: repeat(
+      2,
+      1fr
+    ); /* redifinición necesaria para mejor visualización de las cartas en dispositivos más pequeños */
+  }
+
+  main article {
+    width: 38vw;
+    height: 10em;
+    font-size: 0.7em;
+  }
+}

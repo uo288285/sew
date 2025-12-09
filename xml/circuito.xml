@@ -1,0 +1,431 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE circuito SYSTEM "circuito.dtd">
+<circuito>
+<nombre>Petronas Sepang International Circuit</nombre>
+<longitudCircuito unidades="metros"> 5543</longitudCircuito>
+    <anchuraCircuito unidades= "metros"> 25 </anchuraCircuito>
+    <fecha> 26 octubre de 2025</fecha>
+    <hora>8:00</hora>
+    <vueltas>21</vueltas>
+    <localidadProxima>Sepang</localidadProxima>
+    <pais>Malasia</pais>
+    <patrocinador>Petronas</patrocinador>
+    <referencias>
+    <referencia> https://www.autobild.es/reportajes/asi-es-circuito-sepang-270281</referencia>
+    <referencia>https://www.estadiodeportivo.com/motor/motogp/circuito-internacional-sepang-longitud-curvas-vuelta-record-del-trazado-del-malasia-motogp-20250315-486503.html</referencia>
+    <referencia>https://www.sepangcircuit.com/</referencia>
+    </referencias>
+    
+    <galeriaFoto>
+        <foto fuente="sepang1.jpg"  descripcion="Foto con información del circuito de Sepang"/>
+        <foto fuente="sepang2.jpg" descripcion="Foto de una moto con la bandera de Malasia en el fondo"/>
+        <foto fuente="sepang3.jpg" descripcion="Foto de una moto en el circuito de Sepang"/>
+    </galeriaFoto>
+    <galeriaVideo>
+        <video fuente="videoSepang.mp4" />
+    </galeriaVideo>
+    <origen>
+        <coordenadas>
+        <longitud>  101°44'18"E</longitud>
+        <latitud> 2°45'38"N"</latitud>
+        <altitud unidades="metros "> 35,76</altitud>
+        </coordenadas>
+    </origen>
+    <puntosAnonimos>
+        <tramo unidades="metros">612</tramo>
+        <coordenadas>
+            <longitud>101°43'58"E</longitud>
+            <latitud>2°45'37"N</latitud>
+            <altitud unidades="metros">37,46</altitud>  
+        </coordenadas>
+        <sector>1</sector>
+    </puntosAnonimos>
+    <puntosAnonimos>
+        <tramo unidades="metros">38</tramo>
+        <coordenadas>
+            <longitud>101°43'57"E</longitud>
+            <latitud>2°45'37"N</latitud>
+            <altitud unidades="metros">37,46</altitud>  
+        </coordenadas>
+        <sector>1</sector>
+    </puntosAnonimos>
+    <puntosAnonimos>
+        <tramo unidades="metros">29</tramo>
+        <coordenadas>
+            <longitud>101°43'57"E</longitud>
+            <latitud>2°45'38"N</latitud>
+            <altitud unidades="metros">37,44</altitud>  
+        </coordenadas>
+        <sector>1</sector>
+    </puntosAnonimos>
+    <puntosAnonimos>
+        <tramo unidades="metros">33</tramo>
+        <coordenadas>
+            <longitud>101°43'58"E</longitud>
+            <latitud>2°45'39"N</latitud>
+            <altitud unidades="metros">37,46</altitud>  
+        </coordenadas>
+        <sector>1</sector>
+    </puntosAnonimos>
+    <puntosAnonimos>
+        <tramo unidades="metros">59</tramo>
+        <coordenadas>
+            <longitud>101°44'00"E</longitud>
+            <latitud>2°45'39"N</latitud>
+            <altitud unidades="metros">35,7</altitud>  
+        </coordenadas>
+        <sector>1</sector>
+    </puntosAnonimos>
+    <puntosAnonimos>
+        <tramo unidades="metros">39</tramo>
+        <coordenadas>
+            <longitud>101°44'00"E</longitud>
+            <latitud>2°45'40"N</latitud>
+            <altitud unidades="metros">34,49</altitud>  
+        </coordenadas>
+        <sector>1</sector>
+    </puntosAnonimos>
+    <puntosAnonimos>
+        <tramo unidades="metros">87</tramo>
+        <coordenadas>
+            <longitud>101°43'59"E</longitud>
+            <latitud>2°45'42"N</latitud>
+            <altitud unidades="metros">30</altitud>  
+        </coordenadas>
+        <sector>1</sector>
+    </puntosAnonimos>
+    <puntosAnonimos>
+        <tramo unidades="metros">44</tramo>
+        <coordenadas>
+            <longitud>101°43'59"E</longitud>
+            <latitud>2°45'43"N</latitud>
+            <altitud unidades="metros">27,52</altitud>  
+        </coordenadas>
+        <sector>1</sector>
+    </puntosAnonimos>
+    <puntosAnonimos>
+        <tramo unidades="metros">84</tramo>
+        <coordenadas>
+            <longitud>101°43'59"E</longitud>
+            <latitud>2°45'46"N</latitud>
+            <altitud unidades="metros">24,28</altitud>  
+        </coordenadas>
+        <sector>1</sector>
+    </puntosAnonimos>
+    <puntosAnonimos>
+        <tramo unidades="metros">65</tramo>
+        <coordenadas>
+            <longitud>101°44'00"E</longitud>
+            <latitud>2°45'48"N</latitud>
+            <altitud unidades="metros">22,64</altitud>  
+        </coordenadas>
+        <sector>1</sector>
+    </puntosAnonimos>
+    <puntosAnonimos>
+        <tramo unidades="metros">40</tramo>
+        <coordenadas>
+            <longitud>101°44'01"E</longitud>
+            <latitud>2°45'49"N</latitud>
+            <altitud unidades="metros">22,42</altitud>  
+        </coordenadas>
+        <sector>1</sector>
+    </puntosAnonimos>
+    <puntosAnonimos>
+        <tramo unidades="metros">440</tramo>
+        <coordenadas>
+            <longitud>101°44'14"E</longitud>
+            <latitud>2°45'54"N</latitud>
+            <altitud unidades="metros">36,17</altitud>  
+        </coordenadas>
+        <sector>2</sector>
+    </puntosAnonimos>
+    <puntosAnonimos>
+        <tramo unidades="metros">18</tramo>
+        <coordenadas>
+            <longitud>101°44'15"E</longitud>
+            <latitud>2°45'54"N</latitud>
+            <altitud unidades="metros">36,87</altitud>  
+        </coordenadas>
+        <sector>2</sector>
+    </puntosAnonimos>
+    <puntosAnonimos>
+        <tramo unidades="metros">19</tramo>
+        <coordenadas>
+            <longitud>101°44'15"E</longitud>
+            <latitud>2°45'54"N</latitud>
+            <altitud unidades="metros">37,41</altitud>  
+        </coordenadas>
+        <sector>2</sector>
+    </puntosAnonimos>
+    <puntosAnonimos>
+        <tramo unidades="metros">238</tramo>
+        <coordenadas>
+            <longitud>101°44'17"E</longitud>
+            <latitud>2°45'46"N</latitud>
+            <altitud unidades="metros">39,58</altitud>  
+        </coordenadas>
+        <sector>2</sector>
+    </puntosAnonimos>
+    <puntosAnonimos>
+        <tramo unidades="metros">66</tramo>
+        <coordenadas>
+            <longitud>101°44'18"E</longitud>
+            <latitud>2°45'44"N</latitud>
+            <altitud unidades="metros">37,28</altitud>  
+        </coordenadas>
+        <sector>2</sector>
+    </puntosAnonimos>
+    <puntosAnonimos>
+        <tramo unidades="metros">74</tramo>
+        <coordenadas>
+            <longitud>101°44'20"E</longitud>
+            <latitud>2°45'43"N</latitud>
+            <altitud unidades="metros">36,3</altitud>  
+        </coordenadas>
+        <sector>2</sector>
+    </puntosAnonimos>
+    <puntosAnonimos>
+        <tramo unidades="metros">44</tramo>
+        <coordenadas>
+            <longitud>101°44'22"E</longitud>
+            <latitud>2°45'44"N</latitud>
+            <altitud unidades="metros">36,26</altitud>  
+        </coordenadas>
+        <sector>2</sector>
+    </puntosAnonimos>
+    <puntosAnonimos>
+        <tramo unidades="metros">49</tramo>
+        <coordenadas>
+            <longitud>101°44'23"E</longitud>
+            <latitud>2°45'45"N</latitud>
+            <altitud unidades="metros">36,78</altitud>  
+        </coordenadas>
+        <sector>2</sector>
+    </puntosAnonimos>
+    <puntosAnonimos>
+        <tramo unidades="metros">72</tramo>
+        <coordenadas>
+            <longitud>101°44'25"E</longitud>
+            <latitud>2°45'46"N</latitud>
+            <altitud unidades="metros">38,45</altitud>  
+        </coordenadas>
+        <sector>2</sector>
+    </puntosAnonimos>
+    <puntosAnonimos>
+        <tramo unidades="metros">58</tramo>
+        <coordenadas>
+            <longitud>101°44'26"E</longitud>
+            <latitud>2°45'46"N</latitud>
+            <altitud unidades="metros">38,72</altitud>  
+        </coordenadas>
+        <sector>2</sector>
+    </puntosAnonimos>
+    <puntosAnonimos>
+        <tramo unidades="metros">60</tramo>
+        <coordenadas>
+            <longitud>101°44'28"E</longitud>
+            <latitud>2°45'45"N</latitud>
+            <altitud unidades="metros">38,73</altitud>  
+        </coordenadas>
+        <sector>2</sector>
+    </puntosAnonimos>
+    <puntosAnonimos>
+        <tramo unidades="metros">295</tramo>
+        <coordenadas>
+            <longitud>101°44'34"E</longitud>
+            <latitud>2°45'38"N</latitud>
+            <altitud unidades="metros">38,79</altitud>  
+        </coordenadas>
+        <sector>2</sector>
+    </puntosAnonimos>
+    <puntosAnonimos>
+        <tramo unidades="metros">17</tramo>
+        <coordenadas>
+            <longitud>101°44'34"E</longitud>
+            <latitud>2°45'37"N</latitud>
+            <altitud unidades="metros">38,74</altitud>  
+        </coordenadas>
+        <sector>2</sector>
+    </puntosAnonimos>
+    <puntosAnonimos>
+        <tramo unidades="metros">101</tramo>
+        <coordenadas>
+            <longitud>101°44'33"E</longitud>
+            <latitud>2°45'35"N</latitud>
+            <altitud unidades="metros">37,91</altitud>  
+        </coordenadas>
+        <sector>2</sector>
+    </puntosAnonimos>
+    <puntosAnonimos>
+        <tramo unidades="metros">473</tramo>
+        <coordenadas>
+            <longitud>101°44'18"E</longitud>
+            <latitud>2°45'33"N</latitud>
+            <altitud unidades="metros">33,94</altitud>  
+        </coordenadas>
+        <sector>2</sector>
+    </puntosAnonimos>
+    <puntosAnonimos>
+        <tramo unidades="metros">18</tramo>
+        <coordenadas>
+            <longitud>101°44'17"E</longitud>
+            <latitud>2°45'32"N</latitud>
+            <altitud unidades="metros">34,44</altitud>  
+        </coordenadas>
+        <sector>2</sector>
+    </puntosAnonimos>
+    <puntosAnonimos>
+        <tramo unidades="metros">122</tramo>
+        <coordenadas>
+            <longitud>101°44'21"E</longitud>
+            <latitud>2°45'30"N</latitud>
+            <altitud unidades="metros">40,54</altitud>  
+        </coordenadas>
+        <sector>2</sector>
+    </puntosAnonimos>
+    <puntosAnonimos>
+        <tramo unidades="metros">54</tramo>
+        <coordenadas>
+            <longitud>101°44'21"E</longitud>
+            <latitud>2°45'28"N</latitud>
+            <altitud unidades="metros">42,17</altitud>  
+        </coordenadas>
+        <sector>3</sector>
+    </puntosAnonimos>
+    <puntosAnonimos>
+        <tramo unidades="metros">82</tramo>
+        <coordenadas>
+            <longitud>101°44'21"E</longitud>
+            <latitud>2°45'26"N</latitud>
+            <altitud unidades="metros">44,03</altitud>  
+        </coordenadas>
+        <sector>3</sector>
+    </puntosAnonimos>
+    <puntosAnonimos>
+        <tramo unidades="metros">79</tramo>
+        <coordenadas>
+            <longitud>101°44'19"E</longitud>
+            <latitud>2°45'24"N</latitud>
+            <altitud unidades="metros">44,18</altitud>  
+        </coordenadas>
+        <sector>3</sector>
+    </puntosAnonimos>
+    <puntosAnonimos>
+        <tramo unidades="metros">36</tramo>
+        <coordenadas>
+            <longitud>101°44'18"E</longitud>
+            <latitud>2°45'23"N</latitud>
+            <altitud unidades="metros">43,88</altitud>  
+        </coordenadas>
+        <sector>3</sector>
+    </puntosAnonimos>
+    <puntosAnonimos>
+        <tramo unidades="metros">289</tramo>
+        <coordenadas>
+            <longitud>101°44'11"E</longitud>
+            <latitud>2°45'29"N</latitud>
+            <altitud unidades="metros">36,72</altitud>  
+        </coordenadas>
+        <sector>3</sector>
+    </puntosAnonimos>
+    <puntosAnonimos>
+        <tramo unidades="metros">46</tramo>
+        <coordenadas>
+            <longitud>101°44'09"E</longitud>
+            <latitud>2°45'29"N</latitud>
+            <altitud unidades="metros">35,58</altitud>  
+        </coordenadas>
+        <sector>3</sector>
+    </puntosAnonimos>
+    <puntosAnonimos>
+        <tramo unidades="metros">129</tramo>
+        <coordenadas>
+            <longitud>101°44'05"E</longitud>
+            <latitud>2°45'28"N</latitud>
+            <altitud unidades="metros">32,50</altitud>  
+        </coordenadas>
+        <sector>3</sector>
+    </puntosAnonimos>
+    <puntosAnonimos>
+        <tramo unidades="metros">74</tramo>
+        <coordenadas>
+            <longitud>101°44'03"E</longitud>
+            <latitud>2°45'28"N</latitud>
+            <altitud unidades="metros">32,57</altitud>  
+        </coordenadas>
+        <sector>3</sector>
+    </puntosAnonimos>
+    <puntosAnonimos>
+        <tramo unidades="metros">76</tramo>
+        <coordenadas>
+            <longitud>101°44'01"E</longitud>
+            <latitud>2°45'29"N</latitud>
+            <altitud unidades="metros">34,51</altitud>  
+        </coordenadas>
+        <sector>3</sector>
+    </puntosAnonimos>
+    <puntosAnonimos>
+        <tramo unidades="metros">50</tramo>
+        <coordenadas>
+            <longitud>101°44'00"E</longitud>
+            <latitud>2°45'31"N</latitud>
+            <altitud unidades="metros">35,96</altitud>  
+        </coordenadas>
+        <sector>3</sector>
+    </puntosAnonimos>
+    <puntosAnonimos>
+        <tramo unidades="metros">31</tramo>
+        <coordenadas>
+            <longitud>101°44'01"E</longitud>
+            <latitud>2°45'32"N</latitud>
+            <altitud unidades="metros">36,55</altitud>  
+        </coordenadas>
+        <sector>3</sector>
+    </puntosAnonimos>
+    <puntosAnonimos>
+        <tramo unidades="metros">860</tramo>
+        <coordenadas>
+            <longitud>101°44'29"E</longitud>
+            <latitud>2°45'37"N</latitud>
+            <altitud unidades="metros">36,69</altitud>  
+        </coordenadas>
+        <sector>3</sector>
+    </puntosAnonimos>
+    <puntosAnonimos>
+        <tramo unidades="metros">43</tramo>
+        <coordenadas>
+            <longitud>101°44'29"E</longitud>
+            <latitud>2°45'38"N</latitud>
+            <altitud unidades="metros">37,65</altitud>  
+        </coordenadas>
+        <sector>3</sector>
+    </puntosAnonimos>
+    <puntosAnonimos>
+        <tramo unidades="metros">41</tramo>
+        <coordenadas>
+            <longitud>101°44'28"E</longitud>
+            <latitud>2°45'39"N</latitud>
+            <altitud unidades="metros">37,20</altitud>  
+        </coordenadas>
+        <sector>3</sector>
+    </puntosAnonimos>
+    <puntosAnonimos>
+        <tramo unidades="metros">359</tramo>
+        <coordenadas>
+        <longitud>  101°44'18"E</longitud>
+        <latitud> 2°45'38"N"</latitud>
+        <altitud unidades="metros "> 35,76"</altitud>
+        </coordenadas>
+        <sector>1</sector>
+    </puntosAnonimos>
+  
+
+    <ganador>Alex Márquez</ganador>
+    <tiempoGanador>40:09</tiempoGanador>
+
+    <clasificación>
+    <piloto puesto="1">Marc Márquez</piloto>
+    <piloto puesto="2">Alex Márquez</piloto>
+    <piloto puesto="3">Marco Bezzechi</piloto>
+    </clasificación>
+</circuito>
