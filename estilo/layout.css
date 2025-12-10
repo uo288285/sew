@@ -15,6 +15,12 @@
     margin: 0.5rem 0.5rem;
   }
 
+  /* Selector 011 */
+  input[type="text"] {
+    display: block;
+    margin: 0.5rem 0.5rem;
+  }
+
   /* Selector 003 */
   section h4 ~ p {
     margin-top: 0;
@@ -49,6 +55,12 @@
     flex-direction: row;
     justify-content: space-around;
     row-gap: 0.1rem;
+  }
+
+  /* Selector 002 */
+  picture img {
+    width: auto;
+    max-width: 100%;
   }
 
   /* Selector 001 */
@@ -112,13 +124,6 @@
   picture {
     display: flex;
     justify-content: center;
-  }
-
-  /* Selector 002 */
-  picture img {
-    width: auto;
-    height: auto;
-    max-width: 100%;
   }
 
   /* Selector 001 */

@@ -40,7 +40,7 @@ class Test
     public function mostrarBotonInicio()
     {
         if (!$this->iniciado && !$this->mostrarObservaciones && !$this->final) {
-            echo "<p>Pulsa el botón para iniciar la prueba</p>";
+            echo "<p>Pulsa el botón para iniciar la prueba";
             echo "<form method='post'>
                     <input type='submit' name='start' value='Iniciar Prueba'>
                   </form>";
@@ -52,35 +52,35 @@ class Test
         if ($this->iniciado) {
             echo "<h3> Responde a las preguntas</h3>";
             echo "<form method='post' autocomplete='off'>
-        <p><label for='respuesta1'>¿Dónde nació el piloto Maverick Viñales?</label>
-        <input type='text' name='respuesta[1]' id='respuesta1'/></p>
+        <label for='respuesta1'>¿Dónde nació el piloto Maverick Viñales?</label>
+        <input type='text' name='respuesta[1]' id='respuesta1'/>
 
-        <p><label for='respuesta2'>¿En qué país se encuentra el circuito de Sepang?</label>
-        <input type='text' name='respuesta[2]' id='respuesta2'/></p>
+        <label for='respuesta2'>¿En qué país se encuentra el circuito de Sepang?</label>
+        <input type='text' name='respuesta[2]' id='respuesta2'/>
 
-        <p><label for='respuesta3'>¿Quién ganó la carrera en Sepang este año?</label>
-        <input type='text' name='respuesta[3]' id='respuesta3'/></p>
+        <label for='respuesta3'>¿Quién ganó la carrera en Sepang este año?</label>
+        <input type='text' name='respuesta[3]' id='respuesta3'/>
 
-        <p><label for='respuesta4'>¿Después de la carrera que piloto iba primero en el mundial?</label>
-        <input type='text' name='respuesta[4]' id='respuesta4'/></p>
+        <label for='respuesta4'>¿Después de la carrera que piloto iba primero en el mundial?</label>
+        <input type='text' name='respuesta[4]' id='respuesta4'/>
 
-        <p><label for='respuesta5'>¿Qué día tuvo lugar la carrera de Sepang?</label>
-        <input type='text' name='respuesta[5]' id='respuesta5'/></p>
+        <label for='respuesta5'>¿Qué día tuvo lugar la carrera de Sepang?</label>
+        <input type='text' name='respuesta[5]' id='respuesta5'/>
 
-        <p><label for='respuesta6'>¿Cuánto tardó el ganador de la carrera del circuito de Sepang en cruzar la meta?</label>
-        <input type='text' name='respuesta[6]' id='respuesta6'/></p>
+        <label for='respuesta6'>¿Cuánto tardó el ganador de la carrera del circuito de Sepang en cruzar la meta?</label>
+        <input type='text' name='respuesta[6]' id='respuesta6'/>
 
-       <p> <label for='respuesta7'>¿En qué año fue campeón del mundo Moto3 Maverick Viñales?</label>
-        <input type='text' name='respuesta[7]' id='respuesta7'/></p>
+        <label for='respuesta7'>¿En qué año fue campeón del mundo Moto3 Maverick Viñales?</label>
+        <input type='text' name='respuesta[7]' id='respuesta7'/>
 
-        <p><label for='respuesta8'>¿Qué es una chicane?</label>
-        <input type='text' name='respuesta[8]' id='respuesta8'/></p>
+        <label for='respuesta8'>¿Qué es una chicane?</label>
+        <input type='text' name='respuesta[8]' id='respuesta8'/>
 
-        <p><label for='respuesta9'>¿Cuál es el gentilicio de la ciudad próxima al circuito?</label>
-        <input type='text' name='respuesta[9]' id='respuesta9'/></p>
+        <label for='respuesta9'>¿Cuál es el gentilicio de la ciudad próxima al circuito?</label>
+        <input type='text' name='respuesta[9]' id='respuesta9'/>
 
-        <p><label for='respuesta10'>¿En qué año nació el piloto Maverick Viñales?</label>
-        <input type='text' name='respuesta[10]' id='respuesta10'/></p>
+        <label for='respuesta10'>¿En qué año nació el piloto Maverick Viñales?</label>
+        <input type='text' name='respuesta[10]' id='respuesta10'/>
 
         <input type='submit' name='enviar' value='Terminar prueba'>
       </form>";

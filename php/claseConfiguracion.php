@@ -7,7 +7,6 @@ class Configuracion
     private $password;
     private $nombreDB;
     private $db;
-    public $archivoCSV = "";
     private $idActual = 0;
 
     public function __construct()
@@ -44,7 +43,7 @@ class Configuracion
         }
 
         $fila = $resultado->fetch_assoc();
-        $this->idActual = $fila['max_id'] ?? 0;
+        $this->idActual = $fila['max_id'] ?? 1;
     }
 
 
@@ -90,11 +89,8 @@ class Configuracion
             echo "<p>Error creando la base de datos: " . $this->db->error . "</p>";
             return;
         }
-
         $this->db->select_db("UO288285_DB");
-
         $this->ejecutarScriptSQL("baseDatos.sql");
-
         $this->cerrarConexion();
     }
 
@@ -127,14 +123,14 @@ class Configuracion
                 <input type='radio' id='generoMujer' name='genero' value='Mujer'/>
                 <label for='generoMujer'>Mujer</label></p>
             
-                <p><label for='profesion'>Profesión:</label>
-                <input type='text' id='profesion' name='profesion'/></p>
+                <label for='profesion'>Profesión:</label>
+                <input type='text' id='profesion' name='profesion'/>
                 
-                <p><label for='edad'>Edad:</label>
-                <input type='text' id='edad' name='edad'/></p>
+                <label for='edad'>Edad:</label>
+                <input type='text' id='edad' name='edad'/>
                
-                <p><label for='pericia'>Pericia informática:</label>
-                <input type='text' id='pericia' name='pericia'/></p>
+                <label for='pericia'>Pericia informática:</label>
+                <input type='text' id='pericia' name='pericia'/>
                 
                 <p>Dispositivo:
                 <input type='radio' id='dispositivoOrdenador' name='dispositivo' value='ordenador'/>
@@ -188,14 +184,13 @@ class Configuracion
         }
 
         $stmt->close();
-        $this->cerrarConexion();
         $this->insertarDispositivoUsuario();
+        $this->cerrarConexion();
     }
 
     public function insertarDispositivoUsuario()
     {
 
-        $this->crearConexion();
         $this->obtenerIdActual();
         $sql = "INSERT INTO Test_Usabilidad (id_usuario, dispositivo) VALUES (?, ?)";
 
@@ -216,7 +211,6 @@ class Configuracion
         }
 
         $stmt->close();
-        $this->cerrarConexion();
     }
 
 
@@ -226,7 +220,8 @@ class Configuracion
         $this->crearConexion();
         $this->obtenerIdActual();
         $sql = "INSERT INTO Respuestas_Test (id_usuario, numero_pregunta, respuesta)
-            VALUES (?, ?, ?)";
+        VALUES (?, ?, ?)";
+
 
         $stmt = $this->db->prepare($sql);
         if (!$stmt) {
@@ -320,27 +315,22 @@ class Configuracion
     {
         $this->crearConexion();
 
-
-
-
         $sql = file_get_contents("consultaExportarDatos.sql");
         $resultado = $this->db->query($sql);
 
         $sql2 = file_get_contents("consultaRespuestas.sql");
         $resultado2 = $this->db->query($sql2);
 
-        if (!$resultado) {
-            echo "<p>Error al ejecutar la consulta: " . $this->db->error . "</p>";
-            return;
-        }
 
         $nombre = "export_" . date("Ymd_His") . ".csv";
         $ruta = "./" . $nombre;
 
         $fp = fopen($ruta, "w");
+
+
         fprintf($fp, chr(0xEF) . chr(0xBB) . chr(0xBF));
 
-        // Columnas
+
         $columnas = array();
         while ($campo = $resultado->fetch_field()) {
             $columnas[] = $campo->name;
@@ -349,7 +339,7 @@ class Configuracion
 
 
 
-        // Filas
+
         while ($fila = $resultado->fetch_assoc()) {
             fputcsv($fp, $fila);
         }
@@ -366,7 +356,6 @@ class Configuracion
 
         fclose($fp);
 
-        $this->archivoCSV = $ruta;
         echo  "<p>CSV generado correctamente</p>";
 
         $this->cerrarConexion();
@@ -386,7 +375,7 @@ class Configuracion
         }
         fclose($fp);
 
-        // Preparar statements
+
         $stmtUsuarios = $this->db->prepare(
             "INSERT INTO Usuarios (id_usuario, profesion, edad, genero, pericia_informatica)
          VALUES (?, ?, ?, ?, ?)"
@@ -408,12 +397,11 @@ class Configuracion
         );
 
         $idUsuarioActual = null;
-        $columnaRespuestasSinPasar = true; // Para saltar la primera fila de encabezados cuando hay 2 columnas
+        $columnaRespuestasSinPasar = true;
 
         for ($indiceFila = 1; $indiceFila < count($todasLasFilas); $indiceFila++) {
             $fila = $todasLasFilas[$indiceFila];
 
-            // Contar cuántas columnas tienen datos (no vacías)
             $columnasConDatos = 0;
             foreach ($fila as $valor) {
                 if (isset($valor) && $valor !== "") {
