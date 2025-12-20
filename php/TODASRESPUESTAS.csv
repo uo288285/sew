@@ -1,0 +1,31 @@
+﻿id_usuario;profesion;edad;genero;pericia_informatica;dispositivo;tiempo_segundos;tarea_completada;comentarios_usuario;propuestas_mejora;valoracion;comentarios_facilitador;respuesta_1;respuesta_2;respuesta_3;respuesta_4;respuesta_5;respuesta_6;respuesta_7;respuesta_8;respuesta_9;respuesta_10
+1;Profesor;39;Hombre;10;tableta;143;1;Organizacion de la información del piloto puede mejorarse para encontrar la información mas facilmente. Fecha de la carrera no sale como tal.;Incluir fecha de la carrera y reorganizar información en piloto;9;Incluir la fecha de la carrera en meteorología.html para que se pueda responder de forma correcta la pregunta.;Figueres;Malasia;Alex Marquez;Marc Marquez;26/10/2025;40 min 09 s;2013;una curva doble;malayo;1995
+2;Administrativo;55;Hombre;6;ordenador;397;1;Una aplicación interesante para conocer la vida de Maverick Viñales.;En el apartado de Circuito tener que cargar los archivos dificulta la utilización de la aplicación.;9;Tengo que modificar el test para que no aparezcan las respuestas de anteriores intentos. La ayuda ha servido para que el usuario encuentre la definición de chicane.;Figueres, España;Malasia;Alex Marquez;Marc Marquez;26/10/2025;40 min 09 s;2013;Curva pronunciada;kualalumpurense;1995
+3;Estudiante;17;Hombre;6;telefono;221;1;los archivos deberían estar dentro de la propia pagina web;no deberian de salir las respuestas completadas por otros usuarios;8;Cambiar lo de las respuestas del test al finalizar la tanda, al usar el dispositivo móvil fue capaz de encontrar las respuestas de forma rápida.;Figueres, España;Malasi;Alex Marquez;Marc Marquez;26/10/2025;40 min 09 s;2013;Curva pronunciada;Malayo;1995
+4;Higienista dental;55;Mujer;4;tableta;834;1;Muy intuitiva.;Es facil no cambiaria nada.;10;La ayuda solucionó bastantes dudas a la hora de responder, el test fue lento pero seguro.;Figueres España;Malasia;Alex Marquez;Marc Marquez;26/10/2025;40 min 09 s;2013;Curva pronunciada;kualalumpurense;1995
+5;Estudiante;21;Hombre;7;ordenador;146;1;Aplicación sencilla;Cambiaría las preguntas del test para hacerlo más complicado;8;Todo correcto, se resolvió el test bastante rápido;Figueres,España;Malasia;Alex Marquez;Marc Márquez;2025-10-26.;40 min 09 s;2013;Curva pronunciada;kualalumpurense;1995
+6;Estudiante;21;Mujer;7;telefono;136;1;Intuitiva para responder las preguntas.;Usar otro color en lugar del amarillo para los titulos;9;Todo correcto, pudo ver numerosas respuestas en la misma página ya que leyó rápidamente todas antes de empezar a contestar.;Figueres,España;Malasia;Alex Márquez;Marc Márquez;26/10/2025;40 min 09 s;2013;Curva pronunciada;kualalumpurense;1995
+7;Estudiante;22;Hombre;8;tableta;158;1;Buena aplicación sobre la MotoGP;Quizás intercambiaría el orden de las preguntas ya que mucha información estaba en la misma página, la que se abría desde el ordenador.;9;De nuevo encuentran la información de forma sencilla sin usar ayuda, hay muchas respuestas en circuito.html;Figueres;Malasia;Alex Márquez;Marc Márquez;26/10/2025;40 min 09 s;2013;Curva pronunciada;kualalumpurense;1995
+;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;
+;;;;PORCENTAJE;;;;PORCENTAJE;;;;;;;;;;;;;
+;;MENOR DE 20 ;1;14,28571429;;HOMBRE;5;71,42857143;;;;;;;;;;;;;
+;;ENTRE 20 /30;3;42,85714286;;MUJER;2;28,57142857;;;;;;;;;;;;;
+;;ENTRE 30/40;1;14,28571429;;TOTAL;7;;;;;;;;;;;;;;
+;;ENTRE 40/65;2;28,57142857;;;;;;;;;;;;;;;;;
+;;MAYOR DE 60;0;0;;;;;;;;;;;;;;;;;
+;;TOTAL;7;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;Completados;7;100;;;;;;;;;;;;
+;;;;;;;TOTAL;7;;;;;;;;;;;;;
+;;;;PORCENTAJE;;;;;;;;;;;;;;;;;
+;;DE 0/3;0;0;;;;;;;;;;;;;;;;;
+;;DE 3/5;1;14,28571429;;;;;;;;;;;;;;;;;
+;;DE 5/7;4;57,14285714;;;;;;;;;;;;;;;;;
+;;DE 7/10;2;28,57142857;;;;;;;;;;;;;;;;;
+;;TOTAL;7;;;;Medio de la puntuacion;8,857142857;;;;;;;;;;;;;
+;;;;;;;Media de la edad:;32,85714286;;;;;;;;;;;;;
+;;;;;;;Tiempo medio:;290,7142857;;;;;;;;;;;;;

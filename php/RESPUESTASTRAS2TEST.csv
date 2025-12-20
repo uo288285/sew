@@ -1,0 +1,24 @@
+﻿id_usuario,profesion,edad,genero,pericia_informatica,dispositivo,tiempo_segundos,tarea_completada,comentarios_usuario,propuestas_mejora,valoracion,comentarios_facilitador
+1,Profesor,39,Hombre,10,tableta,143,1,"Organizacion de la información del piloto puede mejorarse para encontrar la información mas facilmente. Fecha de la carrera no sale como tal.","Incluir fecha de la carrera y reorganizar información en piloto",9,"Incluir la fecha de la carrera en meteorología.html para que se pueda responder de forma correcta la pregunta."
+2,Administrativo,55,Hombre,6,ordenador,397,1,"Una aplicación interesante para conocer la vida de Maverick Viñales.","En el apartado de Circuito tener que cargar los archivos dificulta la utilización de la aplicación .",9,"Tengo que modificar el test para que no aparezcan las respuestas de anteriores intentos. La ayuda ha servido para que el usuario encuentre la definición de chicane."
+id_usuario,numero_pregunta,respuesta
+1,1,Figueres
+1,2,Malasia
+1,3,"Alex Marquez"
+1,4,"Marc Marquez"
+1,5,26-10-2025
+1,6,"40 minutos 9 segundos"
+1,7,2013
+1,8,"una curva doble"
+1,9,malayo
+1,10,1995
+2,1,"Figueres, España"
+2,2,Malasia
+2,3,"Alex Marquez"
+2,4,"Marc Marquez"
+2,5,26/10/25
+2,6,"40 min 09 s"
+2,7,2013
+2,8,"Curva pronunciada"
+2,9,kualalumpurense
+2,10,1995

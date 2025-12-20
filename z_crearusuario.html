@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>MotoGP-Test</title>
+    <meta name="author" content="Miguel Arias Guerrero" />
+    <meta
+      name="description"
+      content="Configuración del test de la aplicación"
+    />
+    <meta
+      name="keywords"
+      content="MotoGP, base de datos, reiniciar, crear usuario"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="estilo/estilo.css" />
+    <link rel="stylesheet" type="text/css" href="estilo/layout.css" />
+    <link rel="icon" href="multimedia/favicon.ico" />
+  </head>
+
+  <body>
+    <header>
+      <h1>MotoGP Desktop</h1>
+    </header>
+    <h2>Configuración del test:</h2>
+
+    <form action="#" method="post">
+      <input type="submit" name="reiniciar" value="Reiniciar BD" />
+      <input type="submit" name="eliminar" value="Eliminar BD" />
+      <input type="submit" name="crear" value="Crear Nueva BD" />
+      <input type="submit" name="exportar" value="Exportar CSV" />
+      <input type="submit" name="botonUsuario" value="Crear nuevo usuario " />
+    </form>
+
+    <form action="#" method="post" enctype="multipart/form-data">
+      <label for="archivo">Selecciona el archivo CSV:</label>
+      <input type="file" name="archivo" id="archivo" accept=".csv" />
+      <button type="submit" name="importar">Importar CSV</button>
+    </form>
+
+    <form method="post" autocomplete="off">
+      <h3>Introduce los datos del usuario</h3>
+
+      <fieldset>
+        <legend>Género</legend>
+        <input
+          type="radio"
+          id="generoHombre"
+          name="genero"
+          value="Hombre"
+          required=""
+        />
+        <label for="generoHombre">Hombre</label>
+        <input
+          type="radio"
+          id="generoMujer"
+          name="genero"
+          value="Mujer"
+          required=""
+        />
+        <label for="generoMujer">Mujer</label>
+      </fieldset>
+
+      <label for="profesion">Profesión:</label>
+      <input type="text" id="profesion" name="profesion" />
+
+      <label for="edad">Edad:</label>
+      <input type="text" id="edad" name="edad" />
+
+      <label for="pericia">Pericia informática:</label>
+      <input type="text" id="pericia" name="pericia" />
+
+      <fieldset>
+        <legend>Dispositivo</legend>
+        <input
+          type="radio"
+          id="dispositivoOrdenador"
+          name="dispositivo"
+          value="ordenador"
+        />
+        <label for="dispositivoOrdenador">Ordenador</label>
+        <input
+          type="radio"
+          id="dispositivoTableta"
+          name="dispositivo"
+          value="tableta"
+        />
+        <label for="dispositivoTableta">Tableta</label>
+        <input
+          type="radio"
+          id="dispositivoTelefono"
+          name="dispositivo"
+          value="telefono"
+        />
+        <label for="dispositivoTelefono">Teléfono</label>
+      </fieldset>
+
+      <input type="submit" name="nuevoUsuario" value="Enviar a base de datos" />
+    </form>
+  </body>
+</html>

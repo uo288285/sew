@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>MotoGP-Test</title>
+    <meta name="author" content="Miguel Arias Guerrero" />
+    <meta
+      name="description"
+      content="Test sobre la aplicación de MotoGP Desktop"
+    />
+    <meta name="keywords" content="MotoGP, respuesta, pregunta" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="estilo/estilo.css" />
+    <link rel="stylesheet" type="text/css" href="estilo/layout.css" />
+    <link rel="icon" href="multimedia/favicon.ico" />
+  </head>
+
+  <body>
+    <header>
+      <h1>MotoGP Desktop</h1>
+    </header>
+    <h2>Test sobre la aplicación</h2>
+    <form method="post">
+      <h3>Valoración aplicación</h3>
+      <label for="numero">Puntuación:</label>
+      <input type="number" id="numero" name="numero" min="0" max="10" />
+      <h3>Comentarios sobre la aplicación</h3>
+      <label for="comentarios">Comentarios:</label>
+      <textarea
+        id="comentarios"
+        name="comentarios"
+        rows="6"
+        cols="60"
+        placeholder="Escribe aquí tus comentarios sobre la aplicación si tienes..."
+      ></textarea>
+      <h3>Propuestas para mejorar la aplicación</h3>
+      <label for="propuestas">Propuestas:</label>
+      <textarea
+        id="propuestas"
+        name="propuestas"
+        rows="6"
+        cols="60"
+        placeholder="Escribe aquí tus propuestas de mejora..."
+      ></textarea>
+      <h3>Comentarios del observador</h3>
+      <label for="observacion">Observaciones:</label>
+      <textarea
+        id="observacion"
+        name="observacion"
+        rows="6"
+        cols="60"
+        placeholder="Escribe aquí las observaciones del facilitador..."
+      ></textarea>
+
+      <input type="submit" name="guardarComentarios" value="Guardar todo" />
+    </form>
+  </body>
+</html>
